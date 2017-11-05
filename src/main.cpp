@@ -10,7 +10,7 @@ int seq = 0;
 unsigned long previoustime = 0;
 bool ledStatus = false;
 
-void switchLights(uint8_t LED, unsigned long time, int seq);
+void switchLights(uint8_t ledPin, unsigned long time, int seq);
 
 void setup() {
   pinMode(LEDR, OUTPUT);
